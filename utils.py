@@ -23,7 +23,7 @@ from imgaug import augmenters as iaa
 ROOT_DIR = os.path.abspath("/home/gidish/cloned_libs/Mask_RCNN/") # add here mask RCNN path
 sys.path.append(ROOT_DIR)  # To find local version of the library
 model_path='/mnt/gluster/home/gidish/models'
-#dataset_dir =  f'/home/gidi/data/tennis/'
+
 MODEL_DIR = os.path.join(ROOT_DIR, "logs")
 
 from datetime import datetime
